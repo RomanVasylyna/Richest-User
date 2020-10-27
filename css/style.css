@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+background: rgb(194, 188, 188);
+}
+
+.custom-btn{
+padding: 7px 10px;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.vertical-line{
+  height: 320px;
+  width: 1.5px;
+  background: black;
+}
+
+.horizontal-line{
+  display: inline-block;
+  height: 1.5px;
+  width: 100%;
+  background: black;
+}
+
+.display{
+border-left: 1.5px solid black;
+}
+
+
+/* Media Queries */
+/* Phones */
+@media (max-width: 690px) {
+
+
+}
+
+
+
+/* Ipad */
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+
+.custom-btn{
+  font-size: 2rem;
+}
+
+
+
+}
